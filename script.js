@@ -53,7 +53,7 @@ var i = 0;
 certificate_titles.forEach(certificate => {
     certification__grid.innerHTML += `
         <div class="certification__card">
-            <h4><a style="color: #FF6B35" href="https://github.com/AmiraHassan2003/Certificates/blob/main/Machine/${certificate_links[i]}.pdf">${certificate}</a></h4>
+            <h4><a style="color: #FF6B35" href="https://github.com/amirahassandev/Certificates/blob/main/Machine/${certificate_links[i]}.pdf">${certificate}</a></h4>
             <p>
             ${certificate_desc[i]}
             </p>
