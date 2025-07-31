@@ -18,18 +18,18 @@ var certificate_links =
 
 var certificate_titles = 
     [
-        'Microsoft Learn Student Ambassadors',
-        'Introduction to Artificial Intelligence and Machine Learning with Quantum Computing Foundations',
+        'Microsoft Learn Student Ambassadors (Microsoft)',
+        'Introduction to Artificial Intelligence and Machine Learning with Quantum Computing Foundations (شباب مبتكرون)',
         'Digital Egypt Pioneers Initiative (DEPI)',
-        'Cluster Analysis in Python', 
-        'Dimensionality Reduction in Python',
-        'Feature Engineering for Machine Learning in Python',
-        'Linear Classification in Python',
-        'Machine Learning with Tree-Based Models in Python',
-        'Model Validation in Python',
-        'Preprocessing for Machine Learning in Python',
-        'Supervised Learning with scikit-learn',
-        'Python Programming Basics',
+        'Cluster Analysis in Python (datacamp)', 
+        'Dimensionality Reduction in Python (datacamp)',
+        'Feature Engineering for Machine Learning in Python (datacamp)',
+        'Linear Classification in Python (datacamp)',
+        'Machine Learning with Tree-Based Models in Python (datacamp)',
+        'Model Validation in Python (datacamp)',
+        'Preprocessing for Machine Learning in Python (datacamp)',
+        'Supervised Learning with scikit-learn (datacamp)',
+        'Python Programming Basics (Mahara-Tech)',
         
 
     ];
