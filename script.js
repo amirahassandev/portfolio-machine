@@ -1,21 +1,26 @@
 
 var certificate_links = 
     [
-        'Cluster%20Analysis%20in%20Python', 
-        'Dimensionality%20Reduction%20in%20Python', 
-        'Feature%20Engineering%20for%20Machine%20Learning%20in%20Python',
-        'Linear%20Classifiers%20in%20Python',
-        'Machine%20Learning%20with%20Tree-Based%20Models%20in%20Python',
-        'Model%20Validation%20in%20Python',
-        'Preprocessing%20for%20Machine%20Learning%20in',
-        'Supervised%20Learning%20with%20scikit-learn',
-        'Python%20Programming%20Basics',
-        'Microsoft',
-        'Mobtakeron',
+        'Microsoft.pdf',
+        'Mobtakeron.pdf',
+        'DEPI.jpeg',
+        'Cluster%20Analysis%20in%20Python.pdf', 
+        'Dimensionality%20Reduction%20in%20Python.pdf', 
+        'Feature%20Engineering%20for%20Machine%20Learning%20in%20Python.pdf',
+        'Linear%20Classifiers%20in%20Python.pdf',
+        'Machine%20Learning%20with%20Tree-Based%20Models%20in%20Python.pdf',
+        'Model%20Validation%20in%20Python.pdf',
+        'Preprocessing%20for%20Machine%20Learning%20in.pdf',
+        'Supervised%20Learning%20with%20scikit-learn.pdf',
+        'Python%20Programming%20Basics.pdf',
+        
     ];
 
 var certificate_titles = 
     [
+        'Microsoft Learn Student Ambassadors',
+        'Introduction to Artificial Intelligence and Machine Learning with Quantum Computing Foundations',
+        'Digital Egypt Pioneers Initiative (DEPI)',
         'Cluster Analysis in Python', 
         'Dimensionality Reduction in Python',
         'Feature Engineering for Machine Learning in Python',
@@ -25,13 +30,16 @@ var certificate_titles =
         'Preprocessing for Machine Learning in Python',
         'Supervised Learning with scikit-learn',
         'Python Programming Basics',
-        'Microsoft Learn Student Ambassadors',
-        'Introduction to Artificial Intelligence and Machine Learning with Quantum Computing Foundations',
+        
 
     ];
 
 var certificate_desc = 
 [
+    'I successfully completed the Microsoft Azure AI Fundamentals course, gaining a solid foundation in Artificial Intelligence and Machine Learning. This training provided hands-on experience with Microsoft Azure AI tools, covering Computer Vision, Natural Language Processing (NLP), Knowledge Mining, Generative AI, and Responsible AI. This experience has strengthened my understanding of AI concepts and enhanced my ability to build intelligent solutions using Azure.',
+    'Completed an in-depth course on AI and machine learning fundamentals, including deep learning, natural language processing (NLP), and supervised/unsupervised learning techniques. Gained foundational knowledge of quantum computing and its applications in AI.',
+    'Completed the Machine Learning track in the Digital Egypt Pioneers Initiative (DEPI), covering topics like Python, Supervised/Unsupervised Learning, Deep Learning, NLP, and Computer Vision. Additionally, I gained hands-on experience by completing 3 freelance gigs, which helped me build my portfolio, improve my CV, and enhance my client communication skills.',
+
     'This Cluster Analysis in Python certificate from DataCamp demonstrates my proficiency in unsupervised learning techniques, including K-Means, hierarchical clustering, and evaluating clustering performance. Through hands-on practice, I gained experience in data segmentation, visualization, and optimization using Scikit-learn and Matplotlib to uncover patterns and insights from complex datasets',
     'This Dimensionality Reduction in Python certificate from DataCamp showcases my expertise in reducing data complexity while preserving essential features. I gained hands-on experience with techniques like PCA, t-SNE, and ICA, using Scikit-learn to enhance model efficiency and visualization in machine learning projects.',
     'This Feature Engineering for Machine Learning in Python certificate from DataCamp highlights my expertise in transforming raw data into meaningful features. I gained hands-on experience in handling missing values, encoding categorical data, scaling features, and creating new variables using Pandas and Scikit-learn to enhance model performance.',
@@ -41,8 +49,6 @@ var certificate_desc =
     'This Preprocessing for Machine Learning in Python certificate from DataCamp highlights my expertise in handling missing data, encoding categorical variables, scaling features, and feature selection. I gained hands-on experience using Pandas and Scikit-learn to prepare data for machine learning models, ensuring optimal model performance.',
     'This Supervised Learning with Scikit-Learn certificate from DataCamp demonstrates my expertise in regression and classification algorithms, including linear regression, decision trees, and k-nearest neighbors (k-NN). The course provided hands-on experience with Scikit-learn, enabling me to implement, train, and evaluate machine learning models for real-world datasets.',
     'This Python Programming Basics certificate from ITI Platform (Mahara-Tech) validates my fundamental knowledge of Python. The course covered variables, data types, loops, functions, and basic algorithms, strengthening my ability to write efficient and structured Python code.',
-    'I successfully completed the Microsoft Azure AI Fundamentals course, gaining a solid foundation in Artificial Intelligence and Machine Learning. This training provided hands-on experience with Microsoft Azure AI tools, covering Computer Vision, Natural Language Processing (NLP), Knowledge Mining, Generative AI, and Responsible AI. This experience has strengthened my understanding of AI concepts and enhanced my ability to build intelligent solutions using Azure.',
-    'Completed an in-depth course on AI and machine learning fundamentals, including deep learning, natural language processing (NLP), and supervised/unsupervised learning techniques. Gained foundational knowledge of quantum computing and its applications in AI.'
 ];
 
 
@@ -53,7 +59,7 @@ var i = 0;
 certificate_titles.forEach(certificate => {
     certification__grid.innerHTML += `
         <div class="certification__card">
-            <h4><a style="color: #FF6B35" href="https://github.com/amirahassandev/Certificates/blob/main/Machine/${certificate_links[i]}.pdf">${certificate}</a></h4>
+            <h4><a style="color: #FF6B35" href="https://github.com/amirahassandev/Certificates/blob/main/Machine/${certificate_links[i]}">${certificate}</a></h4>
             <p>
             ${certificate_desc[i]}
             </p>
